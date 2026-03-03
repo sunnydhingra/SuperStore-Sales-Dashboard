@@ -139,3 +139,6 @@ Optimize product and regional strategies
 
 Sunny Dhingra
 Aspiring Data Analyst | Power BI | Data Visualization
+
+### ScreenShot
+https://github.com/sunnydhingra/SuperStore-Sales-Dashboard/blob/main/Super%20Store%20Sales%20Forecast-%2015%20Days%20Forecast.png
