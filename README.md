@@ -142,4 +142,5 @@ Aspiring Data Analyst | Power BI | Data Visualization
 
 ### ScreenShot
 https://github.com/sunnydhingra/SuperStore-Sales-Dashboard/blob/main/Super%20Store%20Sales%20Forecast-%2015%20Days%20Forecast.png
+###
 https://github.com/sunnydhingra/SuperStore-Sales-Dashboard/blob/main/SUPER%20STORE%20SALES%20DASHBOARD.png
