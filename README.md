@@ -1,141 +1,123 @@
 # SuperStore-Sales-Dashboard
 
-### 1. Project Overview
+### 📌 Project Overview
 
-The SuperStore Sales Dashboard is an interactive Power BI report designed to analyze sales performance across different regions, categories, segments, and time periods.
-The dashboard helps stakeholders understand business trends, identify high-performing areas, and make data-driven decisions.
+The SuperStore Sales Dashboard is an interactive Power BI project that analyzes retail sales performance using percentage-based insights.
+The dashboard helps identify sales contribution, profit efficiency, regional performance, and category trends to support data-driven decision-making.
 
-### 2. Objective of the Dashboard
+🎯 Project Objective
 
-The main goals of this dashboard are:
+Analyze sales and profit contribution (%)
 
-To monitor overall sales, profit, and quantity
+Identify high-performing and low-performing categories
 
-To analyze regional and category-wise performance
+Understand region-wise sales share (%)
 
-To identify top-performing and low-performing products
+Track monthly sales trends and growth (%)
 
-To track monthly and yearly sales trends
+Provide actionable business insights through visual analytics
 
-To support strategic business decisions
+🗂 Data Source
 
-### 3. Data Description
+Sample SuperStore retail sales dataset
 
-The dataset represents a retail SuperStore’s sales data and includes:
+Contains:
 
-Order details (Order ID, Order Date, Ship Date)
+Orders & shipment details
 
-Customer information (Segment, Region)
+Customer segments & regions
 
-Product details (Category, Sub-Category, Product Name)
+Product categories & sub-categories
 
-Financial metrics (Sales, Profit, Quantity, Discount)
+Sales, profit, quantity, and discounts
 
-### 4. Data Preparation & Cleaning
+🔧 Data Cleaning & Transformation
 
-The following steps were performed in Power BI:
+Removed duplicates and null values
 
-Removed null and duplicate values
-
-Converted date columns to proper date format
-
-Created calculated measures using DAX
+Converted date fields into proper date format
 
 Standardized category and region names
 
-Built relationships between tables (if applicable)
+Created calculated measures using DAX
 
-### 5. Key KPIs (Measures Used)
+Optimized data model for performance
+
+📐 Key Measures (DAX)
 
 Total Sales
 
 Total Profit
 
-Total Quantity Sold
-
 Profit Margin (%)
 
-Average Discount
+Category Sales Contribution (%)
 
-These KPIs are displayed using Cards at the top of the dashboard for quick insights.
+Region Sales Contribution (%)
 
-### 6. Dashboard Visuals Explanation
-a) Sales by Category
+Monthly Sales Growth (%)
 
-Shows how sales are distributed among categories like Furniture, Office Supplies, and Technology
+📊 Dashboard Features & Visuals
 
-Helps identify which category contributes the most to revenue
+KPI Cards for Sales, Profit, and Profit %
 
-b) Profit by Sub-Category
+Category-wise Sales Contribution (%)
 
-Highlights profitable and loss-making sub-categories
+Sub-category Profit Analysis (%)
 
-Useful for cost control and pricing strategy
+Region-wise Sales Distribution (%)
 
-c) Sales Trend Over Time
+Monthly Sales Trend Analysis
 
-Line chart displaying monthly or yearly sales growth
+Interactive slicers (Year, Region, Category, Segment)
 
-Helps in identifying seasonality and trends
+🔍 Key Insights
 
-d) Sales by Region
+Technology category contributes the highest % of profit
 
-Compares sales performance across regions (East, West, Central, South)
+Some sub-categories show high sales % but low or negative profit %
 
-Supports regional strategy planning
+West region leads in sales contribution (%)
 
-e) Top Products by Sales
+Consumer segment generates the largest sales share (%)
 
-Identifies best-selling products
+Discount-heavy products significantly impact profit margin
 
-Useful for inventory and marketing focus
-
-### 7. Filters & Interactivity
-
-The dashboard includes slicers for:
-
-Year / Month
-
-Region
-
-Category
-
-Segment
-
-These filters allow users to drill down and analyze specific scenarios interactively.
-
-### 8. Insights & Findings
-
-Technology category generally generates higher profit margins
-
-Certain sub-categories show high sales but low profit, indicating discount issues
-
-West and East regions tend to perform better in sales
-
-Sales peak during specific months, indicating seasonal demand
-
-### 9. Tools & Technologies Used
+🛠 Tools & Technologies
 
 Power BI Desktop
 
-Power Query for data transformation
+Power Query
 
-DAX for calculated measures
+DAX
 
-Interactive charts, slicers, and cards
+Data Modeling & Visualization
 
-### 10. Conclusion
+📈 Dashboard Goal
 
-The SuperStore Sales Dashboard provides a clear and interactive view of business performance.
-It helps decision-makers:
-
-Identify growth opportunities
+To provide a clear, interactive, and percentage-driven view of business performance that helps stakeholders:
 
 Improve profitability
 
-Optimize product and regional strategies
+Optimize discount strategies
 
-### 📬 Author
+Focus on high-performing regions and products
+
+📌 Use Case
+
+Business Sales Analysis
+
+Academic & Portfolio Project
+
+Interview & Resume Showcase
+
+📎 File Information
+
+.pbit file (Power BI Template)
+
+Users can connect their own SuperStore dataset and refresh
+
+📬 Author
 
 Sunny Dhingra
 Aspiring Data Analyst | Power BI | Data Visualization
